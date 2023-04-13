@@ -2,7 +2,7 @@
 const reponse=await fetch('scene3D_ZMGVH.json');
 const scene = await reponse.json();
 function genererScene(scene){
-    for (let i = 0; i < pices.lenght; i++) {
+    for (let i = 0; i < scene.lenght; i++) {
         const zone = scene[i];
         // Récupération de l'élément du DOM pour les zones
         const sectionFiches = document.querySelector(".fiches");
