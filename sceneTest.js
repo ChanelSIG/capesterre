@@ -34,7 +34,7 @@ boutonPart1.addEventListener("clik",function(){
     const part1 = scene.filter(function(scenes){
         return scenes.part = "Partie1"
     });
-     document.querySelector(".fiches").innerHTML="";
-    genererScene(part1);   
+    document.querySelector(".fiches").innerHTML="";
+    genererScene(part1);
 }
 );
