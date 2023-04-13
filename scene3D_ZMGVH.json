@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "97107_A1",
+        "commune" : "Capesterre-Belle-Eau",
+        "insee" : "97197",
+        "part " : "Partie1",
+        "modelpage" : "capesterreNordPart1.png",
+        "scene" : "CapesterreNordPart1.html"
+    },
+    {
+        "id" : "97107_A2",
+        "commune" : "Capesterre-Belle-Eau",
+        "insee" : "97197",
+        "part " : "Partie2",
+        "modelpage" : "capesterreNordPart2.png",
+        "scene" : "CapesterreNordPart2.html"
+    },
+    {
+        "id" : "97107_A3",
+        "commune" : "Capesterre-Belle-Eau",
+        "insee" : "97197",
+        "part " : "Partie3",
+        "modelpage" : "capesterreSud.png",
+        "scene" : "CapesterreSud.html"
+    }
+]
