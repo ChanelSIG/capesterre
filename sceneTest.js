@@ -15,14 +15,14 @@ function genererScene(scene){
         const modelpageElement = document.createElement("img");
         modelpageElement.src = zone.modelpage;
         // Balise de l'objet 3D
-        const sceneElement = document.createElement("object");
-        sceneElement.src=zone.scene
+        //const sceneElement = document.createElement("object");
+        //sceneElement.src=zone.scene
         //Rattacher les balises à la fiche
         sectionFiches.appendChild(communeElement);
         // Rattacher les élément de la commune 
         communeElement.appendChild(partElement);
         communeElement.appendChild(modelpageElement);
-        communeElement.appendChild(sceneElement);
+       // communeElement.appendChild(sceneElement);
     }
 }
 
