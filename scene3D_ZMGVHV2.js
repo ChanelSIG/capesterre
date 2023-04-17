@@ -34,8 +34,8 @@ for (let i = 0; i < scene.lenght; i++){
     //Rattacher balises à la section fiche
     sectionFiches.appendChild(communeElement);
     //Rattacher balises à la commune 
-    communeElement.appendChild(partElement);
-    communeElement.appendChild(modelpageElement);
-    communeElement.appendChild(lasceneElement); 
+    sectionFiches.appendChild(partElement);
+    sectionFiches.appendChild(modelpageElement);
+    sectionFiches.appendChild(lasceneElement); 
 
 }
